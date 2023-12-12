@@ -137,7 +137,7 @@ function Index() {
             {/*========== End Work Section ==========*/}
 
             {/*Start testimonial Section*/}
-            {/* <div className="container section-margin" data-dsn-title="Testimonials">
+            <div className="container section-margin" data-dsn-title="Testimonials">
                 <TitleSection description={"{ testimonials }"}>
                     What People are <br/>Saying
                 </TitleSection>
@@ -154,7 +154,7 @@ function Index() {
                 >
                     <SwiperPagination className={`justify-content-between dsn-container mt-30`}/>
                 </Testimonial>
-            </div> */}
+            </div>
             {/*End testimonial Section*/}
 
             {/*Start Blog*/}

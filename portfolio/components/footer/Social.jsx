@@ -2,8 +2,8 @@ import {dsnCN} from "../../hooks/helper";
 
 
 const socialContent = [
-    {name: "Linkedin.", href: "https://github.com/TheKillerAboy"},
-    {name: "Github.", href: "https://www.linkedin.com/in/annekin-meyburgh-535662199/"},
+    {name: "Linkedin.", href: "https://www.linkedin.com/in/annekin-meyburgh-535662199/"},
+    {name: "Github.", href: "https://github.com/TheKillerAboy"},
     {name: "Codeforces.", href: "https://codeforces.com/profile/AMeyburgh"},
 ];
 

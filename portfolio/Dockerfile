@@ -1,4 +1,4 @@
-FROM node:20.10.0
+FROM docker.io/node:20.10.0
 
 WORKDIR /app
 
