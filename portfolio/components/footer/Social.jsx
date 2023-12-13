@@ -14,7 +14,7 @@ function Social({className, ...restProps}) {
             <ul>
                 {socialContent && socialContent.map(($item, $number) =>
                     <li className="over-hidden" key={$number}>
-                        <a href={$item.href} data-dsn="parallax" target="_blank" rel="nofollow">{$item.name}</a>
+                        <a className="link-hover" href={$item.href} data-dsn="parallax" target="_blank" rel="nofollow">{$item.name}</a>
                     </li>)
                 }
             </ul>
