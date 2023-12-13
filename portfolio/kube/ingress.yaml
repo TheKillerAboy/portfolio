@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: awmeyburgh-ingress
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - awmeyburgh.co.za
+    secretName: awmeyburgh-ingress-tls
+  rules:
+  - host: awmeyburgh.co.za
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: portfolio-service
+            port:
+              number: 80

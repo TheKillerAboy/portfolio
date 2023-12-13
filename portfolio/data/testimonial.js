@@ -1,5 +1,11 @@
 const TestimonialDetails = [
     {
+        name: "Ivan Schultz",
+        label: "Integration Development Lead",
+        src: "/img/team/ivan.jpg",
+        description: `"During Annekin’s tenure with our organisation, they consistently demonstrated exceptional professionalism, dedication, and a strong work ethic. Their job performance was consistently of a high standard, and they continually exceeded our expectations. I was particularly impressed with Annekin’s ability to deliver consistently and at times with strict deadlines."`
+    },
+    {
         name: "Yonela Mguli",
         label: "Former Colleague",
         src: "/img/team/yonela.jpg",
@@ -9,20 +15,6 @@ const TestimonialDetails = [
         dedicated and enthusiastic individual who has a great penchant for meeting deadlines.
         Annekin is an accomplished multitasker who has ensured the efficacy of many projects."`
     },
-    // {
-    //     name: "Lindamiku",
-    //     label: "Marketing Manager",
-    //     src: "/img/team/2.jpg",
-    //     description: `"First of all, I really enjoyed setting this up. What a
-    //                                                             great
-    //                                                             layout and design. The support is fast and high quality.
-    //                                                             They
-    //                                                             really made an effort to make sure I got the help I
-    //                                                             needed.
-    //                                                             keep in mind that it is not only a great design, but
-    //                                                             also it
-    //                                                             is easy to change it up with little effort. Great Job!"`
-    // },
     // {
     //     name: "Makrandpatne",
     //     label: "Web Designer",
